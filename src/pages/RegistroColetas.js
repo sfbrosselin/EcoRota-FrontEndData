@@ -212,7 +212,7 @@ const RegistroColetas = () => {
         setVidro((vidroPotes * 4) + Number(vidroOutros) + (vidroCopos * 2) + (vidroEmbalagem * 3) + (vidroRemedio * 2))
         setMetal((metalCano * 4) + Number(metalOutros) + Number(metalTampa) + (metalLata * 3) + (metalPregos * 2))
         setPapel((papelJornal * 2) + (papelPizza * 3) + Number(papelCaderno) + (papelCartolina * 4) + Number(papelOutros))
-      },);
+      },[plasticoCano, plasticoOutros, plasticoPequeno, plasticoGrande, plasticoTampinha, vidroPotes, vidroOutros, vidroCopos, vidroEmbalagem, vidroRemedio, metalCano, metalOutros, metalTampa, metalLata, metalPregos, papelJornal, papelPizza, papelCaderno, papelCartolina, papelOutros]);
 
     console.log(Number(plastico + vidro + papel + metal))
 
