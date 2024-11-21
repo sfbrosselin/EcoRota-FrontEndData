@@ -28,7 +28,7 @@ const MapaEcoPontos = ({ ponto, lngMap, latMap, raioBusca }) => {
         <APIProvider apiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
             <Map
                 mapId={process.env.REACT_APP_GOOGLE_MAPS_MAP_ID}
-                defaultCenter={{lat: -23.5575066, lng: -46.63680189999999}}
+                defaultCenter={{lat: -23.6529768, lng: -46.6676614}}
                 defaultZoom={18}
                 gestureHandling={'greedy'}
                 onClick={() => setActiveMarker(null)}
